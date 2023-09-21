@@ -22,8 +22,7 @@
 
 body {
   display: flex;
-  background-image: url(/lista-tarefas/assets/img/ghibli.jpg);
-  background-size: cover;
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
   margin: 0;
   padding: 0;
   font-family: 'Open sans', sans-serif;
@@ -34,6 +33,7 @@ body {
 .container {
   max-width: 640px;
   background-color: #ffff;
+  border-radius: 15px;
   margin: 50px auto;
   padding: 20px;
   border-radius: 10px;
